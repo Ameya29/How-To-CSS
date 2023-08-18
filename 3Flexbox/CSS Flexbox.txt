@@ -1,2 +1,12 @@
 CSS Flexbox: 
 - Align items (divs) side by side
+- Parent element control child element behaviour
+- Parent should be display: flex;
+-- Some more properties
+    gap: 10px; (Gap between children)
+    justify-content: center; (Align children elements horizontally)
+                     space-around;
+                     space-evenly;
+                     space-between;
+                     end;
+    
