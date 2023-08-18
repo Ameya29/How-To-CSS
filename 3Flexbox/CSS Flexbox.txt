@@ -1,1 +1,2 @@
 CSS Flexbox: 
+- Align items (divs) side by side
