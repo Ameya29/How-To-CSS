@@ -1,0 +1,24 @@
+CSS Positions:
+- fixed => Element position fixed even on mouse scroll
+-> Tell position also fixed from where
+-> Eg. top, bottom, right, left: distance from that direction
+-> Eg. position: fixed; top: 10px; (Fixed element 10px from top)
+
+- sticky => Element position fixed from the position you give
+-> Again tell position beyond which you want it fixed
+-> Eg. position: sticky; top: 10px; (Beyond top, it'll be fixed)
+
+- absolute => Element that is absolute floats over on top of other elements
+-> Tell the position to float over
+-> It is not fixed, moves w.r.t screensize
+-> Eg. position: absolute; top: 0px;
+
+
+- relative => Element position relative to outer element
+-> Imagine a small box inside big box 
+-> Parent class should be position: relative and child class should be position: absolute and now locate this child class or smaller box anywhere (top, bottom, left, right) w.r.t parent class or big box
+-> relative and absolute MUST be in the same div
+
+default => static
+
+https://source.unsplash.com/1600x1000/?burger
