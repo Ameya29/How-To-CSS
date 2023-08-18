@@ -9,4 +9,7 @@ CSS Flexbox:
                      space-evenly;
                      space-between;
                      end;
-    
+    flex-wrap: wrap; (Makes flexbox responsive based on sizing)
+    align-item: center; (Align content vertically)
+
+    icons.getbootstrap.com => For icons (Svg)
