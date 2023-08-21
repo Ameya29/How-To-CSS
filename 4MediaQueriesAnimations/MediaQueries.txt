@@ -1,0 +1,10 @@
+Responsive Designs: Media Queries
+- Depending on screensize layout changes
+@media(min-width: 540px){
+    //CSS Here Applicable For >= 540px
+      screensize
+}
+
+@media(max-width: 540px){
+    //CSS Here (Max Limit 540px)
+}
